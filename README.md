@@ -78,7 +78,7 @@ For client requests, an empty string means GET.
 
 ```r.Proto``` this variable returns protocol version for incoming server requests.
 
-& many more please documentation...
+& many more please see documentation...
 
 
 ## About http.CanonicalHeaderKey(s string) string
