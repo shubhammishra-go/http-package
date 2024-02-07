@@ -63,6 +63,9 @@ Set sets the header entries associated with key to the single element value. It 
 Add() adds the key, value pair to the header. It appends to any existing values associated with key. The key is case insensitive; it is canonicalized by CanonicalHeaderKey. 
 
 
+```w.Write(byte[](data))``` Write() writes the byte data to the connection as part of an HTTP reply.
+
+```WriteHeader(statusCode int)```  WriteHeader sends an HTTP response header with the provided status code.
 
 ## About http.Request struct
 

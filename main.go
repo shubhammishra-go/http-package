@@ -10,6 +10,10 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 
 	fmt.Fprintln(w, "Hello, World!")
 
+	w.Write([]byte("Shubham Mishra"))
+
+	w.WriteHeader(200)
+
 	//adding headder
 
 	w.Header().Add("Shubham", "Mishra,Google")
